@@ -1,0 +1,493 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*------------------------ ACA COMIENZA EL HEADER-------------------------------*/
+header{
+    display: flex;
+    min-height: 70px;
+    background-color: rgb(53, 114, 53);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo-p{
+    display: flex;
+        height: 50px;
+        align-items: center;
+        margin-right: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+.nav-inicio li{
+    list-style: none;    
+}
+li {
+    display: inline;
+}
+.nav-palabras{
+    text-decoration: none;
+    font-size: 25px;
+    color:azure;
+    padding: 10px;
+    }
+    .nav-palabras:hover{
+        color:rgba(6, 6, 6, 0.164);
+    }
+
+/*------------------------ ACA TERMINA EL HEADER-------------------------------*/
+
+/*------------------------ ACA COMIENZA EL FOOTER-------------------------------*/
+
+footer{
+    background-color: rgb(53, 114, 53);    
+    height: 60px;
+    width: 100%;
+}
+
+.caja-footer{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: auto;
+}
+
+.footer-ig {
+    height: 41px;
+}
+
+.footer-fb {
+    height: 60px;
+}
+
+
+/*------------------------ ACA TERMINA EL FOOTER-------------------------------*/
+
+/*---------------------- ACA COMIENZA EL MAIN INDEX-------------------------------*/
+
+.caja-portada{
+    background-image: linear-gradient(to bottom, #b70131, #c55841, #d18a63, #dbb693, #e9dfcf);    display: inline;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;  
+    padding: 10px;
+    height: 400px;
+    color: antiquewhite;
+}
+.titulo-principal{
+    padding: 10px;
+    font-size: 50px;
+}
+.titulo-inicio{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.foto-principal{
+    display: flex;
+    border-radius: 150px;
+    height: 300px;
+    width: 300px;
+    margin: 10px;
+}
+.caja-texto{
+    padding: 10px;
+}
+.section-main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-image: linear-gradient(to top, #b70131, #c55841, #d18a63, #dbb693, #e9dfcf);
+}
+.p-main{
+    background-color: rgba(53, 114, 53, 0.323);
+    height: 30px;
+    border-radius: 15px;
+    text-align: center;
+    margin: 15px;
+    color: antiquewhite;
+}
+.foto-main{
+    display: flex;
+    border-radius: 75px;
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+}
+.titulomobil{
+    display: none;
+}
+.foto-papirosmobil{
+    display: none;
+}
+
+/*---------------------- ACA TERMINA EL MAIN INDEX-------------------------------*/
+/*------------------------------INCIO MISION--------------------------------------------*/
+.caja-mainmision{
+    background-image: linear-gradient(to bottom, #b70131, #c55841, #d18a63, #dbb693, #e9dfcf);
+    justify-content: center;
+}
+.titulo-mision{
+    text-align: center;
+    padding: 15px;
+    color: antiquewhite;
+}
+.mision-texto{
+    text-align: center;
+    padding: 5px;
+    font-size: large;
+    color: antiquewhite;
+}
+.foto-manual{
+    display: block;
+    margin: 10px auto;
+    border-radius: 180px;
+    height: 300px;
+    width: 300px;
+
+}
+.p-reco{
+    background-color: rgba(53, 114, 53, 0.323);
+    height: auto;
+    width: 220px;
+    border-radius: 15px;
+    text-align: center;
+    margin: 2px;
+    font-size: 20px;
+    padding: 7px;
+}
+.foto-recomendados{
+    border-radius: 75px;
+    height: 150px;
+    width: 150px;
+    align-items: center;
+    padding: 7px;
+    margin-left: 40px;
+}
+.caja-eze{
+    display: flex;
+    justify-content: center;
+}
+.cajasyoutube{
+    background-color: rgba(53, 114, 53, 0.164);
+    border-radius: 20px;
+    color: antiquewhite;
+    margin: 40px;
+    border-style: dashed;
+    align-items: center;
+}
+
+/*-----------------------------------inicio tienda--------------------------*/
+
+.caja-main{
+    text-align: center;
+    padding: 20px;
+    background-image: linear-gradient(to bottom, #b70131, #c55841, #d18a63, #dbb693, #e9dfcf);
+}
+.titulo-tienda{
+    text-decoration: underline;
+    color: antiquewhite;
+}
+.foto-tienda{
+    display: flex;
+    border-radius: 50px;
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+}
+.section-tienda{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: antiquewhite;
+}
+.p-tienda{
+    background-color: rgba(53, 114, 53, 0.323);
+    height: 30px;
+    border-radius: 15px;
+    text-align: center;
+    text-decoration: underline;
+    }
+.caja-foto{
+    padding: 20px 30px;
+}
+.section-carrito{
+    background-color: rgba(53, 114, 53, 0.164);
+    height: 30px;
+    border-radius: 30px;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+}
+/*--------------------------Inicio Galeria---------------------------------*/
+.caja-maingaleria{
+    background-image: linear-gradient(to bottom, #b70131, #c55841, #d18a63, #dbb693, #e9dfcf);
+    min-height: calc(100vh - 100px - 60px);
+    justify-content: center;
+}
+.titulo-galeria{
+    text-align: center;
+    padding: 20px;
+    text-decoration: underline;
+    color: antiquewhite;
+}
+.caja-texto{
+    text-align: center;
+    font-variant: small-caps;
+    font-weight: normal;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: normal;
+    padding: 20px;
+    }
+    .fotos-galeria{
+    display: block;
+    margin: 10px auto;
+    border-radius: 125px;
+    height: 250px;
+    width: 250px;
+    }
+
+/*-------------------------------INICIO CONTACTO--------------------*/
+
+.caja-contacto{
+    background-image: linear-gradient(to bottom, #b70131, #c55841, #d18a63, #dbb693, #e9dfcf);
+    padding: 5px;
+}
+.titulo-contacto{
+    text-align: center;
+    padding: 20px;
+    text-decoration: underline;
+    color: antiquewhite;
+}
+.saludo{
+    width: 100%;
+    text-align: center;
+    padding: 75px;
+    height: 260px;
+}
+.campo{
+    background: #c55841;
+    min-width: 50%;
+    height: 40px; 
+    margin-bottom: 10px; 
+    border: 1px Solid #b70131; 
+    text-align: center;
+}
+form {
+    background: #c55841; 
+}
+.caja-formulario{
+    border: 10px Solid #b70131; 
+    text-align: center;
+    display: block;
+}
+legend{
+    font-size: 20px;
+    color: antiquewhite;
+}
+label{
+    color: antiquewhite;
+}
+.boton{
+    border: 1px Solid #b70131; 
+    background: #c55841; 
+    height: 40px;
+    width: 70px;
+    margin: 10px;
+    color: antiquewhite;
+}
+
+/*------------------------responsive mobil 360---------------------*/
+
+/*---------------HEADER MOBIL---------------*/
+
+@media (max-width: 360px) {
+    header{
+        flex-direction: column;
+    }
+    .nav-palabras{
+        font-size: 15px;
+        padding: 10px 0px;
+    }
+/*---------------INDEX MOBIL---------------*/
+    main{
+    font-size: 12px;
+    }
+    .caja-portada{
+        flex-direction: column;
+        height: auto;
+    }
+    .caja-texto{
+        text-align: center;
+        font-size: 18px;
+    }    
+    .titulomobil{
+        display: flex;
+        padding: 10px;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-decoration: underline;
+        font-size: 20px;
+    }
+    .foto-papirosmobil{        
+        border-radius: 50px;
+    }
+    .titulo-principal{
+        display: none;
+    }
+/*---------------MISION MOBIL---------------*/
+.caja-eze{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.foto-manual{
+    justify-content: space-around;
+    flex-direction: center;
+}
+.foto-recomendados{
+    justify-content: space-around;
+    flex-direction: center;
+}
+/*---------------TIENDA MOBIL---------------*/
+    .titulo-tienda{
+        font-size: 21px;
+    }
+    .p-tienda{
+        font-size: 15px;
+    }
+    .titulo-principal{
+        display: none;
+    }
+/*---------------CONTACTO MOBIL---------------*/
+    main{
+        max-width: 360px;
+    }
+    .caja-formulario{
+        width: 100%;
+    }
+
+/*---------------GALERIA MOBIL---------------*/
+.fotos-galeria{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    justify-content: space-around;
+    flex-direction: center;
+    padding: 10px;
+}
+.caja-galeria{
+    height: auto;
+    flex-direction: column;
+}
+.titulo-foto{
+    margin: 10px;
+}
+.caja-texto{
+    text-align: center;
+}
+.caja-seccion{
+    border-radius: 20px;
+    margin: 10px 10px 0px 10px;
+}
+}
+
+/*------------------------responsive tablet 768---------------------*/
+
+/*---------------INDEX TABLET---------------*/
+
+@media (max-width: 768px) {
+    header{
+        flex-direction: column;
+        }
+        .nav-palabras{
+            font-size: 15px;
+        }
+        .titulo-principal{
+            font-size: 25px;
+        }
+/*---------------MISION TABLET---------------*/
+.p-reco{
+    display: flex;
+    height: auto;
+    width: 150px;
+    border-radius: 15px;
+    text-align: center;
+    margin: 2px;
+    font-size: 18px;
+    padding: 7px;
+}
+.cajasyoutube{
+    display: block;
+    margin: 20px;
+    background-color: rgba(53, 114, 53, 0.164);
+    border-radius: 20px;
+    color: antiquewhite;
+}
+.foto-recomendados{
+    border-radius: 60px;
+    height: 120px;
+    width: 120px;
+    align-items: center;
+    padding: 7px;
+    margin-left: 40px;
+}
+.caja-eze{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+}
+.p-reco{
+    height: auto;
+    width: auto;
+    font-size: 16px;
+    text-align: center;
+    display: block;
+}
+.foto-manual{
+    display: block;
+    border-radius: 15px;
+}
+/*---------------GALERIA TABLET---------------*/
+.container-galeria{
+    height: 1450px;  
+}
+.titulo-galeria{
+padding: 25px;
+}
+.caja-texto{
+    width: 100%;
+    text-align: center;
+}
+.caja-seccion{
+    border-radius: 20px;
+    margin: 10px 10px 0px 10px;
+    padding: 5px;
+}
+.fotos-galeria{
+    padding: 5px;
+}
+.caja-galeria{
+    margin: 5px;
+}
+/*---------------CONTACTO TABLET---------------*/
+
+.caja-contacto{
+    display: block;
+    height: 880px;
+}
+.boton{
+    border: 1px Solid #b70131; 
+    background: #c55841; 
+    height: 40px;
+    width: 70px;
+    margin: 10px;
+    color: antiquewhite;
+}
+}
