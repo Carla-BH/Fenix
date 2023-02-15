@@ -131,6 +131,8 @@ footer{
 .caja-mainmision{
     background-image: linear-gradient(to bottom, #b70131, #c55841, #d18a63, #dbb693, #e9dfcf);
     justify-content: center;
+    width: 100%;
+    height: 100%;
 }
 .titulo-mision{
     text-align: center;
@@ -149,37 +151,60 @@ footer{
     border-radius: 180px;
     height: 300px;
     width: 300px;
-
+    margin: auto;
 }
 .p-reco{
-    background-color: rgba(53, 114, 53, 0.323);
     height: auto;
-    width: 220px;
+    width: 100%;
     border-radius: 15px;
-    text-align: center;
-    margin: 2px;
     font-size: 20px;
-    padding: 7px;
+    text-align: center;
+    display: flex;
+    margin: 2px;
+    background-color: rgba(53, 114, 53, 0.323);
+    justify-content: center;
 }
 .foto-recomendados{
     border-radius: 75px;
     height: 150px;
     width: 150px;
-    align-items: center;
-    padding: 7px;
-    margin-left: 40px;
+    justify-content: center;
+    display: block;
+    margin: 10px auto;
 }
 .caja-eze{
-    display: flex;
     justify-content: center;
+    display: flex;
 }
-.cajasyoutube{
+.cajasyoutube-1{
+    background-color: rgba(53, 114, 53, 0.164);
+    border-radius: 30px;
+    color: antiquewhite;
+    border-style: dashed;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    margin: 30px;
+}
+.cajasyoutube-2{
     background-color: rgba(53, 114, 53, 0.164);
     border-radius: 20px;
     color: antiquewhite;
-    margin: 40px;
     border-style: dashed;
-    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    margin: 30px;
+}
+.cajasyoutube-3{
+    background-color: rgba(53, 114, 53, 0.164);
+    border-radius: 20px;
+    color: antiquewhite;
+    border-style: dashed;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    margin: 30px;
 }
 
 /*-----------------------------------inicio tienda--------------------------*/
@@ -309,13 +334,14 @@ label{
 @media (max-width: 360px) {
     header{
         flex-direction: column;
+        width: 100%;
     }
     .nav-palabras{
         font-size: 15px;
         padding: 10px 0px;
     }
 /*---------------INDEX MOBIL---------------*/
-    main{
+main{
     font-size: 12px;
     }
     .caja-portada{
@@ -343,18 +369,10 @@ label{
     }
 /*---------------MISION MOBIL---------------*/
 .caja-eze{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-.foto-manual{
-    justify-content: space-around;
-    flex-direction: center;
-}
-.foto-recomendados{
-    justify-content: space-around;
-    flex-direction: center;
-}
+    flex-direction: column;
+    width: 80%;
+    }
+
 /*---------------TIENDA MOBIL---------------*/
     .titulo-tienda{
         font-size: 21px;
@@ -413,47 +431,7 @@ label{
             font-size: 25px;
         }
 /*---------------MISION TABLET---------------*/
-.p-reco{
-    display: flex;
-    height: auto;
-    width: 150px;
-    border-radius: 15px;
-    text-align: center;
-    margin: 2px;
-    font-size: 18px;
-    padding: 7px;
-}
-.cajasyoutube{
-    display: block;
-    margin: 20px;
-    background-color: rgba(53, 114, 53, 0.164);
-    border-radius: 20px;
-    color: antiquewhite;
-}
-.foto-recomendados{
-    border-radius: 60px;
-    height: 120px;
-    width: 120px;
-    align-items: center;
-    padding: 7px;
-    margin-left: 40px;
-}
-.caja-eze{
-    display: flex;
-    padding: 20px;
-    justify-content: center;
-}
-.p-reco{
-    height: auto;
-    width: auto;
-    font-size: 16px;
-    text-align: center;
-    display: block;
-}
-.foto-manual{
-    display: block;
-    border-radius: 15px;
-}
+
 /*---------------GALERIA TABLET---------------*/
 .container-galeria{
     height: 1450px;  
