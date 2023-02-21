@@ -1,0 +1,51 @@
+/*---------------INDEX TABLET---------------*/
+
+@media (max-width: 768px) {
+    header{
+        flex-direction: column;
+        }
+        .nav-palabras{
+            font-size: 15px;
+        }
+        .titulo-principal{
+            font-size: 25px;
+        }
+/*---------------MISION TABLET---------------*/
+
+/*---------------GALERIA TABLET---------------*/
+.container-galeria{
+    height: 1450px;  
+}
+.titulo-galeria{
+padding: 25px;
+}
+.caja-texto{
+    width: 100%;
+    text-align: center;
+}
+.caja-seccion{
+    border-radius: 20px;
+    margin: 10px 10px 0px 10px;
+    padding: 5px;
+}
+.fotos-galeria{
+    padding: 5px;
+}
+.caja-galeria{
+    margin: 5px;
+}
+/*---------------CONTACTO TABLET---------------*/
+
+.caja-contacto{
+    display: block;
+    height: 880px;
+}
+.boton{
+    border: 1px Solid #b70131; 
+    background: #c55841; 
+    height: 40px;
+    width: 70px;
+    margin: 10px;
+    color: antiquewhite;
+}
+}

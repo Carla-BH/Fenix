@@ -1,0 +1,86 @@
+/*---------------HEADER MOBIL---------------*/
+
+@media (max-width: 360px) {
+    header{
+        flex-direction: column;
+        width: 100%;
+    }
+    .nav-palabras{
+        font-size: 15px;
+        padding: 10px 0px;
+    }
+/*---------------INDEX MOBIL---------------*/
+main{
+    font-size: 12px;
+    }
+    .caja-portada{
+        flex-direction: column;
+        height: auto;
+    }
+    .caja-texto{
+        text-align: center;
+        font-size: 18px;
+    }    
+    .titulomobil{
+        display: flex;
+        padding: 10px;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-decoration: underline;
+        font-size: 20px;
+    }
+    .foto-papirosmobil{        
+        border-radius: 50px;
+    }
+    .titulo-principal{
+        display: none;
+    }
+/*---------------MISION MOBIL---------------*/
+.caja-eze{
+    flex-direction: column;
+    width: 80%;
+    }
+
+/*---------------TIENDA MOBIL---------------*/
+    .titulo-tienda{
+        font-size: 21px;
+    }
+    .p-tienda{
+        font-size: 15px;
+    }
+    .titulo-principal{
+        display: none;
+    }
+/*---------------CONTACTO MOBIL---------------*/
+    main{
+        max-width: 360px;
+    }
+    .caja-formulario{
+        width: 100%;
+    }
+
+/*---------------GALERIA MOBIL---------------*/
+.fotos-galeria{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    justify-content: space-around;
+    flex-direction: center;
+    padding: 10px;
+}
+.caja-galeria{
+    height: auto;
+    flex-direction: column;
+}
+.titulo-foto{
+    margin: 10px;
+}
+.caja-texto{
+    text-align: center;
+}
+.caja-seccion{
+    border-radius: 20px;
+    margin: 10px 10px 0px 10px;
+}
+}

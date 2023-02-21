@@ -1,0 +1,33 @@
+header{
+    display: flex;
+    min-height: 70px;
+    background-color: rgb(53, 114, 53);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo-p{
+    display: flex;
+        height: 50px;
+        align-items: center;
+        margin-right: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+.nav-inicio li{
+    list-style: none;    
+}
+li {
+    display: inline;
+}
+.nav-palabras{
+    text-decoration: none;
+    font-size: 25px;
+    color:azure;
+    padding: 10px;
+    }
+    .nav-palabras:hover{
+        color:rgba(6, 6, 6, 0.164);
+    }

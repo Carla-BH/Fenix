@@ -1,0 +1,26 @@
+.caja-maingaleria{
+    background-image: linear-gradient(to bottom, #b70131, #c55841, #d18a63, #dbb693, #e9dfcf);
+    min-height: calc(100vh - 100px - 60px);
+    justify-content: center;
+}
+.titulo-galeria{
+    text-align: center;
+    padding: 20px;
+    text-decoration: underline;
+    color: antiquewhite;
+}
+.caja-texto{
+    text-align: center;
+    font-variant: small-caps;
+    font-weight: normal;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: normal;
+    padding: 20px;
+    }
+    .fotos-galeria{
+    display: block;
+    margin: 10px auto;
+    border-radius: 125px;
+    height: 250px;
+    width: 250px;
+    }

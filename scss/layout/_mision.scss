@@ -1,0 +1,78 @@
+.caja-mainmision{
+    background-image: linear-gradient(to bottom, #b70131, #c55841, #d18a63, #dbb693, #e9dfcf);
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.titulo-mision{
+    text-align: center;
+    padding: 15px;
+    color: antiquewhite;
+}
+.mision-texto{
+    text-align: center;
+    padding: 5px;
+    font-size: large;
+    color: antiquewhite;
+}
+.foto-manual{
+    display: block;
+    margin: 10px auto;
+    border-radius: 180px;
+    height: 300px;
+    width: 300px;
+    margin: auto;
+}
+.p-reco{
+    height: auto;
+    width: 100%;
+    border-radius: 15px;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    margin: 2px;
+    background-color: rgba(53, 114, 53, 0.323);
+    justify-content: center;
+}
+.foto-recomendados{
+    border-radius: 75px;
+    height: 150px;
+    width: 150px;
+    justify-content: center;
+    display: block;
+    margin: 10px auto;
+}
+.caja-eze{
+    justify-content: center;
+    display: flex;
+}
+.cajasyoutube-1{
+    background-color: rgba(53, 114, 53, 0.164);
+    border-radius: 30px;
+    color: antiquewhite;
+    border-style: dashed;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    margin: 30px;
+}
+.cajasyoutube-2{
+    background-color: rgba(53, 114, 53, 0.164);
+    border-radius: 20px;
+    color: antiquewhite;
+    border-style: dashed;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    margin: 30px;
+}
+.cajasyoutube-3{
+    background-color: rgba(53, 114, 53, 0.164);
+    border-radius: 20px;
+    color: antiquewhite;
+    border-style: dashed;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    margin: 30px;
+}
